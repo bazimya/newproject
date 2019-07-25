@@ -1,20 +1,23 @@
 .center{
     position:absolute;
     top: 30%;
-    left: 50%;
+    left: 40%;
     color:white;
+    font-size:35px;
 }
 .bottom{
     position:absolute;
     top:40%;
-    left:45%;
+    left:35%;
     color:white;
+    font-size:35px;
 }
 .right{
     position:absolute;
     top:50%;
-    left:35%;
+    left:30%;
     color:white;
+    
 }
 body{
     text-align:center;
