@@ -1,7 +1,17 @@
 
 .center{
     position:absolute;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 50%;
+    font-style:Julius Sans One;
 }
-.
+.bottom{
+    position:absolute;
+    top:40%;
+    left:45%;
+}
+.right{
+    position:absolute;
+    top:50%;
+    left:35%;
+}
