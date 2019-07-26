@@ -1,28 +1,29 @@
 .center{
-    position:absolute;
-    top: 30%;
-    left: 40%;
     color:white;
-    font-size:35px;
-    font-family:
-}
-.bottom{
-    position:absolute;
-    top:40%;
-    left:35%;
-    color:white;
-    font-size:30px;
-    margin-top:10px;
-    font-family:"Roboto";
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
 }
 .right{
-    position:absolute;
-    top:50%;
-    left:30%;
+    
     color:white;
     font-size:10px;
+    text-align:center;
     
 }
-body{
+.all{
+    background-image:url(../imgs/h_img.jpg);
+    background-size:cover;
+}
+.true{
+    color:white;
+    text-align:center;
+}
+.middle{
+    background-image:url(../imgs/s_image.jpg);
+    background-size:cover;
+    width:1400px;
+    height:400px;
+    margin-top:50px;
     text-align:center;
 }
