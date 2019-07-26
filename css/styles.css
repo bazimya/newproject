@@ -4,19 +4,23 @@
     left: 40%;
     color:white;
     font-size:35px;
+    font-family:
 }
 .bottom{
     position:absolute;
     top:40%;
     left:35%;
     color:white;
-    font-size:35px;
+    font-size:30px;
+    margin-top:10px;
+    font-family:"Roboto";
 }
 .right{
     position:absolute;
     top:50%;
     left:30%;
     color:white;
+    font-size:10px;
     
 }
 body{
