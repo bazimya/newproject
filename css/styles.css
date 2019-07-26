@@ -28,6 +28,32 @@
     text-align:center;
 }
 .container{
-    height:150px;
+    height:200px;
     padding-right: 30px;
+}
+.bottom{
+    background-image:url(../imgs/c_image.jpg);
+    background-size:cover;
+    width:1330px;
+    height:700px;
+}
+#blanca1{
+    background-color:unset;
+    color:#ffffff;
+    width:20%;
+    padding:12px 20px;
+}
+#blanca2{
+    background-color:unset;
+    color:white;
+    width:20%;
+    padding:12px 20px;
+}
+#blanca3{
+    width:45%;
+    height:200px;
+    box-sizing:border-box;
+    background-color:unset;
+    font-size:16px;
+    color:white;
 }
