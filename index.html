@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Delani Studio Project/</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/java.js"></script>
 </head>
 <body id="body">
 <div class="cont" style="text-align:center;">
@@ -24,57 +27,44 @@
   <p class="center">TO DELANI STUDIO</p> 
          <br><br>
   <p class="right">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
- <img src="imgs/mouse_click.png" style="margin-top:5%;">
+ <img src="imgs/mouse_click.png" style="margin-top:10%;">
 </div>
 <div class="one">
-  <h1><strong>ABOUT US</strong></h1>
+  <h1 style="text-align:center"><strong>ABOUT US</strong></h1>
    <p>When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive<br><br>and agile.</p>
    <p>Our approach unifies design,development and product management to create exceptional products.</p>
    <p>We start each project by understanding your business goals,the user's needs and the product requirements</p>
    <p>Then we help translate them into effective and elegant solutions.</p>
 </div>
-<div class="middle">
- <h1><strong>SERVICES</strong></h1>
+<div class="middle"><br><br>
+ <h1 style="color:white"><strong>SERVICES</strong></h1>
   <p class="true">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your project vision</p>
   <p class="true">The outcome of this scoping session is proposal or high-level statement of work.</p>
   <p class="true">based on your requirements,we can provide a complete offering or just the pieces you need.</p>
 </div>
 <div class="two">
-  <h1><bold>WHAT WE DO</bold></h1> 
-   <div class="container" class="row">
-    <div class="col-md-4">
-      <div class="design">
-        <img src="imgs/design_icon.png">
+    <div class="row"><br><br>
+      <h1><bold>WHAT WE DO</bold></h1><br><br>
+      <div class="col-md-4">
+        <img src="imgs/design_icon.png" id="design">
         <p>DESIGN</p>
+        <p id="a">Our design practice offers a full range of services including brand strategy,        
+         interaction and design and user experience testing.Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
       </div>
-        <br>
-      <div class="a">
-       <p>Our design practice offers a full range of services including brand strategy,interaction and design and user experience testing.Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-      </div>
+      <div class="col-md-4">
+        <img src="imgs/dev_icon.png" id="develo">
+        <p>DEVELOPMENT</p> 
+        <p id="b">All engineers are fluent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programming.</p>   
+      </div>  
+      <div class="col-md-4">
+        <img src="imgs/product_icon.png" id="product">
+        <p>PRODUCT MANAGEMENT</p> 
+        <p id="c">Planning and development is iterative.Because we are constantly coding and testing,the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>    
+      </div> 
     </div>
-    <div class="col-md-4">
-      <div class="develo">
-        <img src="imgs/dev_icon.png">
-        <p>DEVELOPMENT</p>
-      </div>
-         <br>
-      <div class="b">   
-        <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programming.</p>   
-      </div>
-    </div>  
-    <div class="col-md-4">
-      <div class="product">
-        <img src="imgs/product_icon.png">
-        <p>PRODUCT MANAGEMENT</p>
-      </div>
-          <br>
-      <div class="c">  
-        <p>Planning and development is iterative.Because we are constantly coding and testing,the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</p>    
-      </div>
-    </div> 
-</div>
+</div><br>
 <div class="three">
- <h1><bold>PORTFOLIO</bold></h1> 
+ <h1 style="height:170px;text-align:center;padding-right:10%;padding-top: 5%"><bold>PORTFOLIO</bold></h1> 
    <div class="container" class="row">
    <div class="col-md-3">
     <img src="imgs/work4.jpg"style="width:99%">
@@ -84,6 +74,7 @@
    </div> 
    <div class="col-md-3">
    <img src="imgs/work2.jpg"style="width:99%">
+   
    </div> 
    <div class="col-md-3">
    <img src="imgs/work1.jpg"style="width:99%">        
@@ -103,19 +94,23 @@
     <img src="imgs/work8.jpg"style="width:99%">     
    </div>       
    </div>
-</div>
+</div><br><br><br>
 <div class="bottom" style="text-align:center">
  <div class="form-inline">
-   <h1><strong>CONTACT US</strong></h1> 
- <p>  
+   <h1 style="color:white;height:90px"><strong>CONTACT US</strong></h1> 
+ <p class="col-md-6">  
   <input id="blanca1" type="text" placeholder="Name..."/>
  </p> 
- <p>
-  <input id="blanca2" type="text" placeholder="Email...">
+ <p clas="col-md-6">
+  <input id="blanca2" type="text" placeholder="Email..."> 
+ </p>
+ <p class="col-md-12">
+  <textarea name="comment" id="blanca3" placeholder="Your message here..." cols="120" rows="20"></textarea>
  </p>
  <p>
-  <input id="blanca3" type="text" placeholder="Your message here...">
-<p>        
+  <!-- <button >SUBMIT</button> -->
+  <input type="submit" id="sub" value="SUBMIT">
+ </p>        
 </div>
 </div>
 <div class="end">
